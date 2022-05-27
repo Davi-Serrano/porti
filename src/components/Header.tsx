@@ -9,13 +9,13 @@ export function Header(){
             px="1em"
         >
             <Flex>
-                <Text>Davi Serrano</Text>
+                <Text px="1em">Davi Serrano</Text>
             </Flex>
 
             <Flex>
-                <Text>Contanto</Text>
-                <Text>Projetos</Text>
-                <Text>Linkedin</Text>
+                <Text px="1em">Contanto</Text>
+                <Text px="1em">Projetos</Text>
+                <Text px="1em">Linkedin</Text>
             </Flex>
         </Flex>
     )

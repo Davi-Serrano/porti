@@ -12,7 +12,7 @@ export const  theme = extendTheme({
                 textDecoration: "none",
             },
             body:{
-                bg: '#222222',
+                bg: '#ffffff',
                 margin: 0,
                 color: 'gray.50',
                 

@@ -8,6 +8,7 @@ export function SlidePage(){
             align="space-around"
             background="#000000"
             mt="1em"
+            mx="auto"
             px="1em"
             h="700px"
             w="80%"
