@@ -1,14 +1,20 @@
-import {  Box ,Flex, Text } from '@chakra-ui/react'
+import {  Box, Flex, Text } from '@chakra-ui/react'
 import { SlidePage } from "../components/Slide"
 
 export default function Home() {
    return (
-    <Box>
+    <Flex
+      flexDirection="column"
+      justify="space-around"
+      align="center"
+    >
          <SlidePage /> 
+         
          <Box
             background="#141414"
             p="1em"
             mt="1em"
+            ml="0px"
             w="80%"
           >
             <Text as="h3">Sobre</Text>
@@ -19,12 +25,12 @@ export default function Home() {
              </Text>
          </Box>
          
-      
           <Box
             background="#141414"
             p="1em"
             w="80%"
             mt="1em"
+            mr="0px"
           >
             <Text as="h3">Stacks</Text>
             <Text as="p">
@@ -35,6 +41,6 @@ export default function Home() {
 
          </Box>
 
-    </Box>
+    </Flex>
   )
 }
