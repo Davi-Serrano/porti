@@ -40,6 +40,16 @@ export default function Home() {
              </Text>
 
          </Box>
+        <Flex
+          justify="space-around"
+          align="center"
+          w="100%"
+          mt="3em"
+          py="1em"
+        >
+          <Box> Projetos</Box>
+          <Box> Linkedin</Box>
+        </Flex>
 
     </Flex>
   )
