@@ -1,12 +1,24 @@
 import { Flex, Text } from "@chakra-ui/react"
+import { useState } from "react"
 
 export function SlidePage(){
+    const myBackground = ["red", "green", "blue"]
+    const [ Item, setItem] =  useState(0)
+
+      function handleChangeBackGroundColor(){
+        if( Item > 1){
+            setItem(0)
+        }  else {
+            setItem(Item + 1)
+        }
+      }
+
     return(
         <Flex
             flexDir="column"
             justify="start"
             align="space-around"
-            background="#000000"
+            background={myBackground[Item]}
             mt="1em"
             mx="auto"
             px="1em"
@@ -20,6 +32,12 @@ export function SlidePage(){
                 industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a 
                 galley of type and scrambled it to make a type specimen book.
             </Text>
+
+            <Flex
+                onClick={handleChangeBackGroundColor}
+            >
+                Outra Página
+            </Flex>
          </Flex>
     )
 }
