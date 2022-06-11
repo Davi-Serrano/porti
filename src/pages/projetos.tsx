@@ -3,14 +3,13 @@ import { Flex, Box, Text, Image, Input } from '@chakra-ui/react'
 export default function Contanto(){
     return(
         <Flex
-            flexD 
             mx="auto"
             mt="2em"
             w="80%"
             color="#C5C5C5"
         >
             <Flex 
-                FlexDir="column"
+                flexDir="column"
                 justify="space-around"
                 align="center"
             >
@@ -28,7 +27,7 @@ export default function Contanto(){
             </Flex>
 
             <Flex 
-                FlexDir="column"
+                flexDir="column"
                 justify="space-around"
                 align="center"
             >
@@ -47,7 +46,7 @@ export default function Contanto(){
             </Flex>
 
             <Flex 
-                FlexDir="column"
+                flexDir="column"
                 justify="space-around"
                 align="center"
             >
