@@ -31,9 +31,12 @@ export default function Home() {
             mt="3em"
             ml="18%"
           >
-            <Text as="h2">Stacks</Text>
-            <Flex>
-                  <Image src="../../public/photos/javascript.svg"
+            <Text as="h2">  Cursos</Text>
+            <Flex justify="space-around" fontSize="25px" px="1em">
+                  <Text>Estrutura de Dados</Text>
+                  <Text>Figma</Text>
+                  <Text>React</Text>
+                  <Text>JavaScript</Text>
              </Flex>
          </Box>
 
@@ -43,12 +46,15 @@ export default function Home() {
             w="80%"
             mt="3em"
 >
-            <Text as="h2">Stacks</Text>
-            <Text as="p">
-               Lorem Ipsum is simply dummy text of
-               the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
-               the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-             </Text>
+            <Text as="h2">Tecnologias</Text>
+            <Flex justify="space-around" fontSize="25px" px="1em">
+            <Text>React</Text>
+                  <Text>NextJS</Text>
+                  <Text>SQL</Text>
+                  <Text>HTML, CSS, JavaScript</Text>
+                  <Text>NodeJS</Text>
+                  <Text>Cypress e Jest</Text>
+             </Flex>
          </Box>
 
         <Flex
