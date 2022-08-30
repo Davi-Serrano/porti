@@ -1,4 +1,4 @@
-import { Flex, Text } from "@chakra-ui/react"
+import { Flex, Text, Link } from "@chakra-ui/react"
 
 export function Header(){
     return(
@@ -14,9 +14,9 @@ export function Header(){
             </Flex>
 
             <Flex>
-                <Text px="1em">Contato</Text>
-                <Text px="1em">Projetos</Text>
-                <Text px="1em">Linkedin</Text>
+                <Link href="/contato"> <Text px="1em">Contato</Text> </Link> 
+                <Link href="/contato"> <Text px="1em">Projetos</Text> </Link> 
+                <Link href="/contato"> <Text px="1em">Linkedin</Text> </Link> 
             </Flex>
         </Flex>
     )

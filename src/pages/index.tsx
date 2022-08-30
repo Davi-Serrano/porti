@@ -1,4 +1,4 @@
-import {  Box, Flex, Text } from '@chakra-ui/react'
+import {  Box, Flex, Image, Text } from '@chakra-ui/react'
 import { SlidePage } from "../components/Slide"
 
 export default function Home() {
@@ -49,7 +49,7 @@ export default function Home() {
             <Text as="h2">Tecnologias</Text>
             <Flex justify="space-around" fontSize="25px" px="1em">
             <Text>React</Text>
-                  <Text>NextJS</Text>
+                  <Image src="./nextjs.jpg" alt="NextJS" h="80px"/>
                   <Text>SQL</Text>
                   <Text>HTML, CSS, JavaScript</Text>
                   <Text>NodeJS</Text>
