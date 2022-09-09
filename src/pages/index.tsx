@@ -16,11 +16,9 @@ export default function Home() {
             mt="3em"
             w="80%"
           >
-            <Text as="h2">Sobre</Text>
+            <Text as="h2">O que  tenho a oferecer?</Text>
             <Text as="p">
-               Lorem Ipsum is simply dummy text of
-               the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
-               the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+               Ao longo de quase dois estudando programção verá abaixo as tecnologias que estudei e cursos realizados. Nesse universo da programação você nunca para de aprender coisas novas.
              </Text>
          </Box>
          
@@ -49,14 +47,14 @@ export default function Home() {
             mt="3em"
 >
             <Text as="h2">Stacks</Text>
-            <Flex justify="space-around" fontSize="25px" px="1em">
-                  <Image src="./html.png" alt="HTML" h="80px"/>
-                  <Image src="./css.png" alt="CSS" h="80px"/>
-                  <Image src="./js.jpg" alt="JavaScript" h="80px"/>
-                  <Image src="./react.jpg" alt="ReactJS" h="80px"/>
-                  <Image src="./nextjs.jpg" alt="NextJS" h="80px"/>
-                  <Image src="./sql.jpg" alt="SQL" h="80px"/>
-                  <Image src="./node.png" alt="NodeJS" h="80px"/>
+            <Flex justify="space-around" flexWrap="wrap" fontSize="25px" px="1em">
+                  <Image m=".3em" src="./html.png" alt="HTML" h="80px"/>
+                  <Image m=".3em" src="./css.png" alt="CSS" h="80px"/>
+                  <Image m=".3em" src="./js.jpg" alt="JavaScript" h="80px"/>
+                  <Image m=".3em" src="./react.jpg" alt="ReactJS" h="80px"/>
+                  <Image m=".3em" src="./nextjs.jpg" alt="NextJS" h="80px"/>
+                  <Image m=".3em" src="./sql.jpg" alt="SQL" h="80px"/>
+                  <Image m=".3em" src="./node.png" alt="NodeJS" h="80px"/>
                   <Text>Cypress e Jest</Text>
              </Flex>
          </Box>

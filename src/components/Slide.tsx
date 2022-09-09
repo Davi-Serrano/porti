@@ -2,48 +2,44 @@ import { Flex, Text } from "@chakra-ui/react"
 import { useState } from "react"
 
 export function SlidePage(){
-    const myBackground = ["black","white", "gray"]
-    const [ Item, setItem] =  useState(0)
-
-      function hadnleSetBackgroundImage(){
-        if( Item > 1){
-            setItem(0)
-        }  else {
-            setItem(Item + 1)
-        }
-      }
-
-      setTimeout(()=> hadnleSetBackgroundImage(), 500000)
 
     return(
         <Flex
             flexDir="column"
-            justify="center"
+            justify="start"
             align="space-around"
-            bg={myBackground[Item]}
+            bg="#000"
             mt="1em"
             mx="auto"
             px="1em"
             h="700px"
             w="80%"
             fontWeight="bold"
-            color={myBackground[Item - 1]}
+            color="white"
             border="1px solid"
-            borderColor={myBackground[Item - 1]}
         >
-            <Text mt="2em">Projetos</Text>
-
-            <Text mt="2em">
-                Lorem Ipsum is simply dummy text of the printing and typesetting 
-                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a 
-                galley of type and scrambled it to make a type specimen book.
+            <Text mt="2em" mb="0">Sobre Mim</Text>
+            <Text >
+                Sou um programdor que consegue achar o caminho para a resolução de um problema 
+                quando necessário, seja pesquisando na documnetação, stackoverflow ou perguntando para alguém com mais experiência.<br></br>
+                Já domino os conceitos básicos da programação como POO, estrtura de dados e análise de algoritimos.
+                
             </Text>
 
-            <Flex
-                onClick={hadnleSetBackgroundImage}
-            >
-                Outra Página
-            </Flex>
+            <Text mt="2em" mb="0">Projetos</Text>
+            <Text >
+                Todos os projetos nesse protifólio foram pensados e programados por mim,
+                desde o design até o deploy.
+            </Text>
+
+            <Text mt="2em" mb="0">Experiêcia Profissional</Text>
+            <Text >
+                Ja desenvovli projetos para clientes do marketing digital, como freelancer cuidei desde de o design da aplicação
+                até o deploy da aplicação que foi feito na netlify. Com o resultado fui contratado para desenvolver a página de captação de leads
+                de outro produto aonde todos os meus resultado final foram tatotalmente aprovado.
+            </Text>
+
+           
          </Flex>
     )
 }
