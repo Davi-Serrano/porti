@@ -47,15 +47,14 @@ export default function Home() {
             mt="3em"
 >
             <Text as="h2">Stacks</Text>
-            <Flex justify="space-around" flexWrap="wrap" fontSize="25px" px="1em">
-                  <Image m=".3em" src="./html.png" alt="HTML" h="80px"/>
-                  <Image m=".3em" src="./css.png" alt="CSS" h="80px"/>
+            <Flex justify="space-around" flexWrap="wrap" fontSize="25px" p="1em">
                   <Image m=".3em" src="./js.jpg" alt="JavaScript" h="80px"/>
-                  <Image m=".3em" src="./react.jpg" alt="ReactJS" h="80px"/>
+                  {/* <Image m=".3em" src="./react.jpg" alt="ReactJS" h="80px"/> */}
                   <Image m=".3em" src="./nextjs.jpg" alt="NextJS" h="80px"/>
                   <Image m=".3em" src="./sql.jpg" alt="SQL" h="80px"/>
                   <Image m=".3em" src="./node.png" alt="NodeJS" h="80px"/>
-                  <Text>Cypress e Jest</Text>
+                  <Image m=".3em" src="./ts.png" alt="CSS" h="80px"/>
+                  <Image m=".3em" src="./mongo.png" alt="CSS" h="80px"/>
              </Flex>
          </Box>
 
