@@ -18,7 +18,6 @@ export function Header(){
                 isLargeThan900 ? 
             
             <Flex>
-                <Link href="/contato"> <Text px="1em">Contato</Text> </Link> 
                 <Link href="/projetos"> <Text px="1em">Projetos</Text> </Link> 
                 <Link href="https://www.linkedin.com/in/davi-serrano-86369a213/" isExternal> <Text px="1em">Linkedin</Text> </Link> 
             </Flex>
