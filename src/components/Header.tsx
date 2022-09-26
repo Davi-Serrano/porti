@@ -12,7 +12,7 @@ export function Header(){
             fontSize="24px"
         >
             <Flex>
-            <Link href="/">  <Text px="1em">Davi Serrano</Text> </Link>
+            <Link href="/">  <Text px="1em">Davi Serrano Cardoso</Text> </Link>
             </Flex>
             {
                 isLargeThan900 ? 
